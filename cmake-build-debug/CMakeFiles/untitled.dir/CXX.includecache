@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gferreir/CLionProjects/LDDE/LDDE.h
+iostream
+-
+no.h
+/home/gferreir/CLionProjects/LDDE/no.h
+
+/home/gferreir/CLionProjects/LDDE/main.cpp
+iostream
+-
+LDDE.h
+/home/gferreir/CLionProjects/LDDE/LDDE.h
+string
+-
+
+/home/gferreir/CLionProjects/LDDE/no.h
+
