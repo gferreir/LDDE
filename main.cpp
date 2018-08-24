@@ -13,5 +13,6 @@ int main(){
     l.imprime();
     l.remove("ghi");
     l.imprime();
+    cout << l.busca("abc") << endl;
 
 }

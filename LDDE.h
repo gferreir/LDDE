@@ -51,6 +51,21 @@ public:
 
     }
 
+    T busca(T valor){
+
+        No<T>* atual = primeiro;
+        while(atual && atual->valor < valor){
+            atual = atual->proximo;
+        }
+
+        if(atual && atual->valor == valor){
+            return atual->valor;
+        } else{
+            return nullptr;
+        }
+    }
+
+
     void imprime(){
         No<T>* ptr = primeiro;
         while(ptr){
